@@ -124,7 +124,7 @@
   }
 }
 
-@media (min-width: 1158px) {
+@media screen and (min-width: 1158px) {
   .header-main-wrapper {
     gap: 332px;
     height: 72px;
