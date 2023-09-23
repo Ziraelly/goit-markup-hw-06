@@ -1,9 +1,3 @@
-@media screen and (max-width: 1157px) {
-  .preferences-wrapper {
-    display: none;
-  }
-}
-
 .our-preferences {
   padding: 96px 0;
 }
@@ -33,6 +27,8 @@
   letter-spacing: 0.02em;
 }
 
+/* TABLET */
+
 @media screen and (min-width: 768px) {
   .our-preferences-blocks {
     display: flex;
@@ -49,6 +45,8 @@
     text-align: start;
   }
 }
+
+/* DESKTOP */
 
 @media screen and (min-width: 1158px) {
   .our-preferences {
@@ -84,5 +82,13 @@
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+  }
+}
+
+/* ONLY DESKTOP */
+
+@media screen and (max-width: 1157px) {
+  .preferences-wrapper {
+    display: none;
   }
 }

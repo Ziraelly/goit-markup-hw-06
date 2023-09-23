@@ -36,6 +36,8 @@
   line-height: 0;
 }
 
+/* TABLET */
+
 @media screen and (min-width: 768px) {
   .mob-menu-btn {
     display: none;
@@ -124,6 +126,8 @@
   }
 }
 
+/* DESKTOP */
+
 @media screen and (min-width: 1158px) {
   .header-main-wrapper {
     gap: 332px;
@@ -151,6 +155,8 @@
     color: #404bbf;
   }
 }
+
+/* MOBILE MENU */
 
 .mobile-menu {
   position: fixed;
