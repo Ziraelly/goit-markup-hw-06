@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
-  <link rel="stylesheet" href="./css/styles.css" />
   <link rel="stylesheet" href="./css/index.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -286,13 +285,21 @@
 
     <!-- 3-rd info block -->
 
-    <!-- <section class="our-portfolio">
+    <section class="our-portfolio">
       <div class="container">
-        <h2 class="headers-for-blocks">Our Portfolio</h2>
+        <h2 class="our-portfolio-main-header">Our Portfolio</h2>
         <ul class="portfolio-card-set">
           <li class="portfolio-card-item">
             <div class="portfolio-card-wrapper">
-              <img src="./images/bank-app.jpeg" alt="Banking App" width="360" />
+              <img srcset="
+              ./images/portfolio-cards-photos/portfolio-1st-desk.jpg 360w,
+              ./images/portfolio-cards-photos/portfolio-1st-desk@2x.jpg 720w,
+              ./images/portfolio-cards-photos/portfolio-1st-tab.jpg 356w,
+              ./images/portfolio-cards-photos/portfolio-1st-tab@2x.jpg 712w,
+              ./images/portfolio-cards-photos/portfolio-1st-mob.jpg 288w,
+              ./images/portfolio-cards-photos/portfolio-1st-mob@2x.jpg 576w"
+                sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                src="./images/portfolio-cards-photos/portfolio-1st-desk.jpg" alt="Banking App" />
               <p class="overlay-text">
                 14 Stylish and User-Friendly App Design Concepts · Task
                 Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -301,12 +308,20 @@
             </div>
             <div class="portfolio-card-text">
               <h3 class="small-haders">Banking App</h3>
-              <p class="main-text">App</p>
+              <p class="main-text-portfolio">App</p>
             </div>
           </li>
           <li class="portfolio-card-item">
             <div class="portfolio-card-wrapper">
-              <img src="./images/qr-scanning.jpeg" alt="Scanning QR-Code" width="360" />
+              <img srcset="
+              ./images/portfolio-cards-photos/portfolio-2nd-desk.jpg 360w,
+              ./images/portfolio-cards-photos/portfolio-2nd-desk@2x.jpg 720w,
+              ./images/portfolio-cards-photos/portfolio-2nd-tab.jpg 356w,
+              ./images/portfolio-cards-photos/portfolio-2nd-tab@2x.jpg 712w,
+              ./images/portfolio-cards-photos/portfolio-2nd-mob.jpg 288w,
+              ./images/portfolio-cards-photos/portfolio-2nd-mob@2x.jpg 576w"
+                sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                src="./images/portfolio-cards-photos/portfolio-2nd-desk.jpg" alt="Scanning QR-Code" />
               <p class="overlay-text">
                 14 Stylish and User-Friendly App Design Concepts · Task
                 Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -315,12 +330,20 @@
             </div>
             <div class="portfolio-card-text">
               <h3 class="small-haders">Cashless Payment</h3>
-              <p class="main-text">Marketing</p>
+              <p class="main-text-portfolio">Marketing</p>
             </div>
           </li>
           <li class="portfolio-card-item">
             <div class="portfolio-card-wrapper">
-              <img src="./images/laptop-phone.jpeg" alt="Meditation App" width="360" />
+              <img srcset="
+              ./images/portfolio-cards-photos/portfolio-3rd-desk.jpg 360w,
+              ./images/portfolio-cards-photos/portfolio-3rd-tab.jpg 356w,
+              ./images/portfolio-cards-photos/portfolio-3rd-desk@2x.jpg 720w,
+              ./images/portfolio-cards-photos/portfolio-3rd-tab@2x.jpg 712w,
+              ./images/portfolio-cards-photos/portfolio-3rd-mob.jpg 288w,
+              ./images/portfolio-cards-photos/portfolio-3rd-mob@2x.jpg 576w"
+                sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                src="./images/portfolio-cards-photos/portfolio-3rd-desk.jpg" alt="Meditation App" />
               <p class="overlay-text">
                 14 Stylish and User-Friendly App Design Concepts · Task
                 Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -329,12 +352,20 @@
             </div>
             <div class="portfolio-card-text">
               <h3 class="small-haders">Meditation App</h3>
-              <p class="main-text">App</p>
+              <p class="main-text-portfolio">App</p>
             </div>
           </li>
           <li class="portfolio-card-item">
             <div class="portfolio-card-wrapper">
-              <img src="./images/car-driving.jpeg" alt="Taxi Service" width="360" />
+              <img srcset="
+              ./images/portfolio-cards-photos/portfolio-4th-desk.jpg 360w,
+              ./images/portfolio-cards-photos/portfolio-4th-tab.jpg 356w,
+              ./images/portfolio-cards-photos/portfolio-4th-desk@2x.jpg 720w,
+              ./images/portfolio-cards-photos/portfolio-4th-tab@2x.jpg 712w,
+              ./images/portfolio-cards-photos/portfolio-4th-mob.jpg 288w,
+              ./images/portfolio-cards-photos/portfolio-4th-mob@2x.jpg 576w"
+                sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                src="./images/portfolio-cards-photos/portfolio-4th-desk.jpg" alt="Taxi Service" />
               <p class="overlay-text">
                 14 Stylish and User-Friendly App Design Concepts · Task
                 Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -343,12 +374,20 @@
             </div>
             <div class="portfolio-card-text">
               <h3 class="small-haders">Taxi Service</h3>
-              <p class="main-text">Marketing</p>
+              <p class="main-text-portfolio">Marketing</p>
             </div>
           </li>
           <li class="portfolio-card-item">
             <div class="portfolio-card-wrapper">
-              <img src="./images/phone-screen.jpeg" alt="Screen Illustrations" width="360" />
+              <img srcset="
+              ./images/portfolio-cards-photos/portfolio-5th-desk.jpg 360w,
+              ./images/portfolio-cards-photos/portfolio-5th-tab.jpg 356w,
+              ./images/portfolio-cards-photos/portfolio-5th-desk@2x.jpg 720w,
+              ./images/portfolio-cards-photos/portfolio-5th-tab@2x.jpg 712w,
+              ./images/portfolio-cards-photos/portfolio-5th-mob.jpg 288w,
+              ./images/portfolio-cards-photos/portfolio-5th-mob@2x.jpg 576w"
+                sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                src="./images/portfolio-cards-photos/portfolio-5th-desk.jpg" alt="Screen Illustrations" />
               <p class="overlay-text">
                 14 Stylish and User-Friendly App Design Concepts · Task
                 Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -357,12 +396,20 @@
             </div>
             <div class="portfolio-card-text">
               <h3 class="small-haders">Screen Illustrations</h3>
-              <p class="main-text">Design</p>
+              <p class="main-text-portfolio">Design</p>
             </div>
           </li>
           <li class="portfolio-card-item">
             <div class="portfolio-card-wrapper">
-              <img src="./images/girl-music.jpeg" alt="Online Courses" width="360" />
+              <img srcset="
+              ./images/portfolio-cards-photos/portfolio-6th-desk.jpg 360w,
+              ./images/portfolio-cards-photos/portfolio-6th-tab.jpg 356w,
+              ./images/portfolio-cards-photos/portfolio-6th-desk@2x.jpg 720w,
+              ./images/portfolio-cards-photos/portfolio-6th-tab@2x.jpg 712w,
+              ./images/portfolio-cards-photos/portfolio-6th-mob.jpg 288w,
+              ./images/portfolio-cards-photos/portfolio-6th-mob@2x.jpg 576w"
+                sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                src="./images/portfolio-cards-photos/portfolio-6th-desk.jpg" alt="Online Courses" />
               <p class="overlay-text">
                 14 Stylish and User-Friendly App Design Concepts · Task
                 Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -371,16 +418,16 @@
             </div>
             <div class="portfolio-card-text">
               <h3 class="small-haders">Online Courses</h3>
-              <p class="main-text">Marketing</p>
+              <p class="main-text-portfolio">Marketing</p>
             </div>
           </li>
         </ul>
       </div>
-    </section> -->
+    </section>
   </main>
 
   <!-- Footer -->
-  <!-- <footer class="webstudio-footer">
+  <footer class="webstudio-footer">
     <div class="container footer-wrapper">
       <div class="footer-text-wrapper">
         <a href="./index.html" class="webstudio-logo">Web<span class="logo-studio-footer">Studio</span></a>
@@ -437,12 +484,12 @@
         </form>
       </div>
     </div>
-  </footer> -->
+  </footer>
 
 
   <!-- BACKDROP WITH MODAL WINDOW -->
 
-  <!-- <div class="backdrop is-open">
+  <div class="backdrop is-open">
     <div class="modal-window">
       <button class="close-button" type="button">
         <svg class="close-button-icon" width="8" height="8" aria-label="close icon">
@@ -494,14 +541,16 @@
                 <use href="./images/icons-forms.svg#icon-checkmark"></use>
               </svg>
             </span>
-            I accept the terms and conditions of the
-            <a class="contacts-form-checkbox-link" href="">Privacy Policy</a>
+            <span class="conacts-agree-text">
+              I accept the terms and conditions of the
+              <a class="contacts-form-checkbox-link" href="">Privacy Policy</a>
+            </span>
           </label>
         </div>
         <button class="contacts-form-button">Send</button>
       </form>
     </div>
-  </div> -->
+  </div>
 
   <!-- MOBILE MENU -->
   <div class="mobile-menu is-open">
